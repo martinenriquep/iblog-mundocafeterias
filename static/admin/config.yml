@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# This line should *not* be indented
+media_folder: "assets/images" # donde queremos guardar las imagenes que subamos a la interfaz de netlify
+
+#COlecciones: son como las tipos de publicaciones que desean administrar las entradas. Por ejemplo en un post quieres que tenga un video en vez de imagen principal.Tipos de contenido. Que tipo de contenido queremos trabajar
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "content/blog" # Donde se van a guardar las entradas desde netlify
+    create: true # se pueden crear este dicumento SI
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # los campos son como propiedades o metadatos
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"} #layout indica que tipo de template queremos trabajar, en este caso blog
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Tutoriales"
+    label: "tutoriales" 
+    folder: "content/tutoriales" 
+    create: true # se pueden crear este dicumento SI
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # los campos son como propiedades o metadatos
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"} #layout indica que tipo de template queremos trabajar, en este caso blog
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
