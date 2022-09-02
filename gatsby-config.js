@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `iBlog Mundo Cafeterias`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Martin Enrique`,
+      summary: `Martin enrique un cafelover.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Un blog con el objetivo de ayudar a emprendedores a que tengan exito con sus cafeterias.`,
+    siteUrl: `https://mundocafeterias.tk`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `pestanatii`,
     },
   },
   plugins: [
@@ -107,7 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `iBlog Mundo Cafeterias`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
