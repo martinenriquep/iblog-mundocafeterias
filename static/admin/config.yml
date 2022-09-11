@@ -6,7 +6,8 @@ backend:
 publish_mode: editorial_workflow
 
 # This line should *not* be indented
-media_folder: "/assets/images" # donde queremos guardar las imagenes que subamos a la interfaz de netlify
+media_folder: "static/images" # donde queremos guardar las imagenes que subamos a la interfaz de netlify
+public_folder: "/images"
 
 #COlecciones: son como las tipos de publicaciones que desean administrar las entradas. Por ejemplo en un post quieres que tenga un video en vez de imagen principal.Tipos de contenido. Que tipo de contenido queremos trabajar
 collections:
