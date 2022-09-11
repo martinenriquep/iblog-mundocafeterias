@@ -2,7 +2,8 @@
 layout: blog
 title: MILENARIA CAFÉ - Cafeteria
 date: 2022-09-02T18:48:50.793Z
-thumbnail: /assets/images/descarga.jpg
+description: Una breve descripcion del café Milenaria Café
+featuredimage: ../../src/images/descarga.jpg
 ---
 Lo milenario viene de antiguo, eso está claro. Pero también tiene otro sentido. Milena Adrián y Andrés Guevara, fundadores de Milenaria Café (Calle Alcanfores 199, local 104), nos hablan de la esencia que hay detrás del nombre del espacio que abrieron en Miraflores. Para ellos, lo milenario recuerda una época en la que “todo era natural y orgánico, sin saberlo siquiera, y en donde las personas vivían más conectadas con la comida y la naturaleza, con su entorno”. Entrar a Milenaria es precisamente eso: regresar a nuestros orígenes, pero no para viajar al pasado, sino para volver a conectar con nosotros mismos y nuestro mundo.
 
